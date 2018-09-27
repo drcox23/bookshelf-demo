@@ -1,7 +1,6 @@
 {
   "name": "bookshelf-demo",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "migrate": "POSTGRES_HOSTNAME=localhost POSTGRES_CONTAINER_PORT=8765 npx knex migrate:latest",
@@ -12,14 +11,26 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.2",
+    "body-parser": "^1.18.3",
     "bookshelf": "^0.13.3",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.1",
     "knex": "^0.14.6",
-    "pg": "^7.4.1"
+    "pg": "^7.4.3",
+    "sass": "^1.14.1"
   },
   "devDependencies": {
     "nodemon": "^1.18.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drcox23/bookshelf-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/drcox23/bookshelf-demo/issues"
+  },
+  "homepage": "https://github.com/drcox23/bookshelf-demo#readme",
+  "description": ""
 }
